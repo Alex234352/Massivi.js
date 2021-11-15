@@ -1,0 +1,13 @@
+
+Сортировать массив чисел  в порядке по убыванию
+
+
+let arr = [ 1, 2, 15 ];
+
+function arrNew  (arr2) {
+
+return arr2.sort((a, b) => b - a);
+
+}
+
+console.log(arrNew(arr)); 
