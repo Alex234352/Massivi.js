@@ -1,0 +1,38 @@
+1..Дан массив с числами. Используя метод map извлеките из каждого элемента массива квадратный корень и запишите результат в новый массив.
+
+let arr = [1, 2, 3, 4, 5];
+
+function changeArr (array) {
+
+return array.map((item) => item*item);
+}
+console.log(changeArr (arr))
+
+2.Дан массив со строками. Используя метод map в конец значению каждого элемента массива добавьте символ '!'.
+
+let arr = ['Igor' , 'Masha' , 'Katya' , 'Aleksej']
+
+function changeArr (array) {
+
+return array.map ((item) =>  item + '!') 
+
+}
+console.log(changeArr(arr))
+
+3. Дан массив со строками. Используя метод map переверните символы каждой строки в обратном порядке.
+
+
+let arr = ['Igor' , 'Masha' , 'Katya' , 'Aleksej']
+
+function changeArr (array) {
+
+return array.slice().reverse().map((item) => item);
+
+}
+
+console.log(changeArr(arr))
+
+
+4. 
+
+
