@@ -33,6 +33,20 @@ return array.slice().reverse().map((item) => item);
 console.log(changeArr(arr))
 
 
-4. 
+4. Используя метод map преобразуйте этот массив в следующий:
 
+let arr = ['123', '456', '789'];
+
+в этот 
+let arr = [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ];
+let arr = ['123', '456', '789'];
+
+
+let result = arr.map(function(elem){
+elem = elem.split('');
+let res = elem.map(function(subElem){
+return subElem = Number(subElem);
+})
+return res;
+})
 
