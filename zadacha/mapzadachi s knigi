@@ -50,3 +50,18 @@ return subElem = Number(subElem);
 return res;
 })
 
+5. Дан массив с числами. Используя метод map запишите в каждый элемент массива значение этого элемента, умноженное на его порядковый номер в массиве.
+
+let arr = ['1', '2', '3', '4', '5'];
+
+
+function getArr  (arr) {
+
+return arr.map((item , index)  => item * index)
+
+}
+console.log(getArr(arr))
+ 
+
+
+
